@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloudmedialog-dev-154826-authRole",
+      "UnauthRoleArn": "arn:aws:iam::066218951223:role/amplify-cloudmedialog-dev-154826-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::066218951223:role/amplify-cloudmedialog-dev-154826-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cloudmedialog-dev-154826-deployment",
+      "UnauthRoleName": "amplify-cloudmedialog-dev-154826-unauthRole",
+      "StackName": "amplify-cloudmedialog-dev-154826",
+      "StackId": "arn:aws:cloudformation:us-east-1:066218951223:stack/amplify-cloudmedialog-dev-154826/efe0d730-e20f-11ed-ba8c-0ef5781b88cf",
+      "AmplifyAppId": "d3gi70ashaict8"
+    },
+    "categories": {
+      "auth": {
+        "cloudmedialog0545cfb9": {}
+      },
+      "api": {
+        "cloudmedialog": {}
+      },
+      "storage": {
+        "image": {}
+      }
+    }
+  }
+}

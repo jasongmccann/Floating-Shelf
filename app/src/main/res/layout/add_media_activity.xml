@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="341dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="8dp"
+            android:text="New Media"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image"
+            android:layout_width="134dp"
+            android:layout_height="206dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="#EAE2E2"
+            android:cropToPadding="true"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/captureImage"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#0DADDD"
+            android:src="@drawable/ic_baseline_insert_photo"
+            android:text="Add image" />
+
+        <ImageButton
+            android:id="@+id/takeImage"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#0DADDD"
+            android:src="@drawable/ic_baseline_add_a_photo"
+            android:text="Take image" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="344dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/platform"
+            android:layout_width="344dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:hint="Platform"
+            android:inputType="text"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="344dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:hint="Year"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/format"
+            android:layout_width="344dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:hint="Format"
+            android:inputType="text"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/rating"
+            android:layout_width="344dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:hint="Rating"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/playstatus"
+            android:layout_width="344dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:hint="Play Status"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/addMedia"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="87dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#0DADDD"
+            android:src="@drawable/ic_baseline_check"
+            android:text="Finish"
+            tools:src="@drawable/ic_baseline_check" />
+
+    </LinearLayout>
+</ScrollView>

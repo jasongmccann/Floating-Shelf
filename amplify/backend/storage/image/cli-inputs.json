@@ -1,0 +1,14 @@
+{
+  "resourceName": "image",
+  "policyUUID": "b7486e5a",
+  "bucketName": "cloudmedialog73dd163d86ca4edfa1e03400e41e39cd",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
